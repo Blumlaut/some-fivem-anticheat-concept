@@ -24,7 +24,6 @@ function dump(t,i) -- dumps global function table
 		table.insert(knownFuncs, k)
 		n=n+1 s[n]=k
 	end
-	table.sort(s)
 	for k,v in ipairs(s) do
 		--print(i,v)
 		--print("i = "..i..", v = "..v )
